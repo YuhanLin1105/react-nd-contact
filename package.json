@@ -1,0 +1,14 @@
+{
+  "name": "react-nd-contact",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev":"concurrently \"npm run dev --prefix server\" \"npm run dev --prefix client\" "
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^3.5.1"
+  }
+}
