@@ -4,6 +4,8 @@
   "private": true,
   "dependencies": {
     "express": "^4.16.2",
+    "lodash": "^4.17.4",
+    "prop-types": "^15.6.0",
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
     "react-scripts": "1.1.0",
@@ -14,6 +16,6 @@
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
-    "dev":"npm run start"
+    "dev": "npm run start"
   }
 }
